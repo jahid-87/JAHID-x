@@ -251,7 +251,7 @@ def i():
     for bilal in range(passx):
         pww = input("[*] Enter Password : ")
         HamiiID.append(pww)
-    with ThreadPool(max_workers=50) as manshera:
+    with ThreadPool(max_workers=10) as manshera:
         clear()
         tl = str(len(user))
         print('\033[1;36m TOTAL IDS: '+tl)
